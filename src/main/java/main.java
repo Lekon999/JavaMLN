@@ -1,9 +1,9 @@
-import ru.netology.services.TestService;
+import ru.netology.services.StatsService;
 
 public class main {
 
     public static void main(String[] args) {
-        TestService service = new TestService();
+        StatsService service = new StatsService();
 
 
     }
