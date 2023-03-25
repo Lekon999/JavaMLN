@@ -53,15 +53,15 @@ public class StatsService {
     }
 
     public int aboveTheAverageSales(long[] sales) {  // Количество месяцев, в которых продажи были выше среднего
-        int belowMonth = 0;
+        int aboveMonth = 0;
         int averageSum = 15;
 
         for (int i = 0; i < sales.length; i++) {
             if (sales[i] > averageSum) {
-                belowMonth++;
+                aboveMonth++;
             }
         }
-        return belowMonth;
+        return aboveMonth;
     }
 }
 
